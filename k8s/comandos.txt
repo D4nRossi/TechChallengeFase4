@@ -1,0 +1,70 @@
+//Instalando kubernetes
+curl.exe -LO "https://dl.k8s.io/release/v1.33.0/bin/windows/amd64/kubectl.exe"
+minikube - baixei o exe
+
+//Startar o kubernetes
+minikube start --driver=docker
+
+//Dentro da pasta do k8s
+
+//Rodar tudo no minikube
+minikube docker-env
+
+//Criando os container
+docker build -t atualizaservice:latest .
+
+
+SET DOCKER_TLS_VERIFY=1
+SET DOCKER_HOST=tcp://127.0.0.1:65441
+SET DOCKER_CERT_PATH=C:\Users\Daniel\.minikube\certs
+SET MINIKUBE_ACTIVE_DOCKERD=minikube
+
+
+//Iniciando o RabbitMq pelo minikube
+kubectl port-forward pod/rabbitmq-5488f4fb9d-mckl7 15672:15672
+
+//Iniciando o cadastro service
+kubectl port-forward service/cadastro-service 8080:80
+
+//Pods rodando
+kubectl get pods
+
+//Log do pod
+kubectl logs <nome-do-pod>
+kubectl logs deployment/persistencia-deployment
+kubectl logs deployment/atualiza-deployment
+
+
+//Ver os caminhos
+kubectl get svc
+
+//Deixando liberando os services
+kubectl port-forward service/cadastro-service 8080:80
+
+//Testando conexão com o banco 
+kubectl run mssql-client --image=mcr.microsoft.com/mssql-tools -it --rm --restart=Never -- bash
+
+//Em caso de mudança do AppSettings
+kubectl delete configmap persistencia-config
+kubectl create configmap persistencia-config --from-file=appsettings.json
+
+//Reiniciando o deployment
+kubectl rollout restart deployment persistencia-deployment
+
+//Pra rodar o banco
+kubectl delete pod mssql-client
+kubectl run mssql-client --rm -it --restart=Never --image=mcr.microsoft.com/mssql-tools -- bash
+/opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P 'Senha123!' -Q "SELECT name FROM sys.databases"
+
+
+//Rodar o grafana e prometheus
+minikube service prometheus-service --url
+minikube service grafana-service --url
+
+
+
+kubectl exec -it <nome-do-pod> -- /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'Senha123!' -Q "CREATE DATABASE TechChallenge"
+
+kubectl exec -it sqlserver-deployment-78d974dcd5-nh92s -- /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'Senha123!' -Q "SELECT name FROM sys.databases"
+
+TpCast

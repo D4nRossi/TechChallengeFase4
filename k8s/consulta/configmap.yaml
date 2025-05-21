@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: consulta-configmap
+  labels:
+    app: consulta-service
+  annotations:
+    description: Configurações do ConsultaService
+data:
+  DB_CONNECTION: "Server=192.168.0.3\\SQLEXPRESS;User Id=sa;Password=senha123;Database=TechChallenge;TrustServerCertificate=True;"

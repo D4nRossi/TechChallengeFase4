@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: atualiza-deployment
+  labels:
+    app: atualiza-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: atualiza-service
+  template:
+    metadata:
+      labels:
+        app: atualiza-service
+      annotations:
+        description: Pod do AtualizaService
+    spec:
+      containers:
+      - name: atualiza-container
+        image: atualizaservice:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: config-volume
+          mountPath: /app/appsettings.json
+          subPath: appsettings.json
+        env:
+        - name: DB_CONNECTION
+          valueFrom:
+            configMapKeyRef:
+              name: atualiza-configmap
+              key: DB_CONNECTION
+      volumes:
+      - name: config-volume
+        configMap:
+          name: atualiza-configmap

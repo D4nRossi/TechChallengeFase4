@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: exclui-deployment
+  labels:
+    app: exclui-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: exclui-service
+  template:
+    metadata:
+      labels:
+        app: exclui-service
+      annotations:
+        description: Pod do ExcluiService
+    spec:
+      containers:
+      - name: exclui-container
+        image: excluiservice:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+        env:
+        - name: DB_CONNECTION
+          valueFrom:
+            configMapKeyRef:
+              name: exclui-configmap
+              key: DB_CONNECTION

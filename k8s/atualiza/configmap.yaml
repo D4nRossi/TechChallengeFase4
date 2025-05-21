@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: atualiza-config
+data:
+  appsettings.json: |
+    {
+      "Logging": {
+        "LogLevel": {
+          "Default": "Information",
+          "Microsoft.Hosting.Lifetime": "Information"
+        }
+      },
+      "ConnectionStrings": {
+        "DB_CONNECTION": "Server=host.docker.internal,1433;Database=TechChallenge;User Id=sa;Password=Senha123!;TrustServerCertificate=True;"
+      },
+      "RabbitMq": {
+        "Host": "rabbitmq",
+        "Username": "guest",
+        "Password": "guest"
+      }
+    }

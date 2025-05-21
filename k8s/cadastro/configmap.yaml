@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cadastro-config
+data:
+  appsettings.json: |
+    {
+      "Logging": {
+        "LogLevel": {
+          "Default": "Information",
+          "Microsoft.Hosting.Lifetime": "Information"
+        }
+      },
+      "MassTransit": {
+        "NomeFila": "fila",
+        "Servidor": "rabbitmq",
+        "Usuario": "guest",
+        "Senha": "guest"
+      }
+    }

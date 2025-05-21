@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prometheus-config
+  labels:
+    name: prometheus-config
+data:
+  prometheus.yml: "\nglobal:\n  scrape_interval: 15s\n\nscrape_configs:\n  - job_name:\
+    \ 'cadastro-service'\n    static_configs:\n      - targets: ['cadastro-service:80']\n\
+    \n  - job_name: 'atualiza-service'\n    static_configs:\n      - targets: ['atualiza-service:80']\n\
+    \n  - job_name: 'consulta-service'\n    static_configs:\n      - targets: ['consulta-service:80']\n\
+    \n  - job_name: 'exclui-service'\n    static_configs:\n      - targets: ['exclui-service:80']\n\
+    \n  - job_name: 'persistencia-service'\n    static_configs:\n      - targets:\
+    \ ['persistencia-service:1234']\n"

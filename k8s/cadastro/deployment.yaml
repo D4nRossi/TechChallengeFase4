@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cadastro-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cadastro
+  template:
+    metadata:
+      labels:
+        app: cadastro
+    spec:
+      containers:
+        - name: cadastro-container
+          image: cadastroservice:latest
+          imagePullPolicy: Never  # <- ESSENCIAL para usar imagem local do Docker via Minikube
+          ports:
+            - containerPort: 8080
+          volumeMounts:
+            - name: config-volume
+              mountPath: /app/appsettings.json
+              subPath: appsettings.json
+      volumes:
+        - name: config-volume
+          configMap:
+            name: cadastro-config

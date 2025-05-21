@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: consulta-deployment
+  labels:
+    app: consulta-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: consulta-service
+  template:
+    metadata:
+      labels:
+        app: consulta-service
+      annotations:
+        description: Pod do ConsultaService
+    spec:
+      containers:
+      - name: consulta-container
+        image: consultaservice:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+        env:
+        - name: DB_CONNECTION
+          valueFrom:
+            configMapKeyRef:
+              name: consulta-configmap
+              key: DB_CONNECTION

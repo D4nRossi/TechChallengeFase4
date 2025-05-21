@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: persistencia-config
+data:
+  appsettings.json: |
+    {
+      "MassTransit": {
+        "Servidor": "rabbitmq",
+        "Usuario": "guest",
+        "Senha": "guest"
+      },
+      "Logging": {
+        "LogLevel": {
+          "Default": "Information"
+        }
+      },
+      "ConnectionStrings": {
+        "DB_CONNECTION": "Server=sqlserver;User Id=sa;Password=Senha123!;Database=TechChallenge;"
+      },
+      "ApiSettings": {
+        "ViaCepUrl": "https://viacep.com.br/ws/"
+      }
+    }
