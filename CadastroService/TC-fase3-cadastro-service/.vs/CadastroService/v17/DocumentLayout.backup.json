@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85146CAF-9216-4810-94A4-F6DB2D984E60}|CadastroService\\CadastroService.csproj|e:\\techchallenges\\fase 3\\cadastroservice\\tc-fase3-cadastro-service\\cadastroservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85146CAF-9216-4810-94A4-F6DB2D984E60}|CadastroService\\CadastroService.csproj|solutionrelative:cadastroservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85146CAF-9216-4810-94A4-F6DB2D984E60}|CadastroService\\CadastroService.csproj|e:\\techchallenges\\fase 3\\cadastroservice\\tc-fase3-cadastro-service\\cadastroservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85146CAF-9216-4810-94A4-F6DB2D984E60}|CadastroService\\CadastroService.csproj|solutionrelative:cadastroservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85146CAF-9216-4810-94A4-F6DB2D984E60}|CadastroService\\CadastroService.csproj|e:\\techchallenges\\fase 3\\cadastroservice\\tc-fase3-cadastro-service\\cadastroservice\\cadastroservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{85146CAF-9216-4810-94A4-F6DB2D984E60}|CadastroService\\CadastroService.csproj|solutionrelative:cadastroservice\\cadastroservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85146CAF-9216-4810-94A4-F6DB2D984E60}|CadastroService\\CadastroService.csproj|e:\\techchallenges\\fase 3\\cadastroservice\\tc-fase3-cadastro-service\\cadastroservice\\models\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85146CAF-9216-4810-94A4-F6DB2D984E60}|CadastroService\\CadastroService.csproj|solutionrelative:cadastroservice\\models\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52ACFE70-6735-F205-68ED-EA087A89FC62}|..\\..\\TechChallenge.Shared\\TechChallenge.Shared\\TechChallenge.Shared.csproj|e:\\techchallenges\\fase 3\\techchallenge.shared\\techchallenge.shared\\events\\contatocreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52ACFE70-6735-F205-68ED-EA087A89FC62}|..\\..\\TechChallenge.Shared\\TechChallenge.Shared\\TechChallenge.Shared.csproj|e:\\techchallenges\\fase 3\\techchallenge.shared\\techchallenge.shared\\events\\contatodeletedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85146CAF-9216-4810-94A4-F6DB2D984E60}|CadastroService\\CadastroService.csproj|e:\\techchallenges\\fase 3\\cadastroservice\\tc-fase3-cadastro-service\\cadastroservice\\controllers\\contatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85146CAF-9216-4810-94A4-F6DB2D984E60}|CadastroService\\CadastroService.csproj|solutionrelative:cadastroservice\\controllers\\contatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D3236F6-8A24-4AB3-9B76-1124EDCF0267}|Core\\Core.csproj|e:\\techchallenges\\fase 3\\cadastroservice\\tc-fase3-cadastro-service\\core\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D3236F6-8A24-4AB3-9B76-1124EDCF0267}|Core\\Core.csproj|solutionrelative:core\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85146CAF-9216-4810-94A4-F6DB2D984E60}|CadastroService\\CadastroService.csproj|e:\\techchallenges\\fase 3\\cadastroservice\\tc-fase3-cadastro-service\\cadastroservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85146CAF-9216-4810-94A4-F6DB2D984E60}|CadastroService\\CadastroService.csproj|solutionrelative:cadastroservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\CadastroService\\appsettings.json",
+              "RelativeDocumentMoniker": "CadastroService\\appsettings.json",
+              "ToolTip": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\CadastroService\\appsettings.json",
+              "RelativeToolTip": "CadastroService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T02:02:24.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contato.cs",
+              "DocumentMoniker": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\CadastroService\\Models\\Contato.cs",
+              "RelativeDocumentMoniker": "CadastroService\\Models\\Contato.cs",
+              "ToolTip": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\CadastroService\\Models\\Contato.cs",
+              "RelativeToolTip": "CadastroService\\Models\\Contato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:52:08.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContatoDeletedEvent.cs",
+              "DocumentMoniker": "E:\\TechChallenges\\Fase 3\\TechChallenge.Shared\\TechChallenge.Shared\\Events\\ContatoDeletedEvent.cs",
+              "RelativeDocumentMoniker": "..\\..\\TechChallenge.Shared\\TechChallenge.Shared\\Events\\ContatoDeletedEvent.cs",
+              "ToolTip": "E:\\TechChallenges\\Fase 3\\TechChallenge.Shared\\TechChallenge.Shared\\Events\\ContatoDeletedEvent.cs",
+              "RelativeToolTip": "..\\..\\TechChallenge.Shared\\TechChallenge.Shared\\Events\\ContatoDeletedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:51:02.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContatoCreatedEvent.cs",
+              "DocumentMoniker": "E:\\TechChallenges\\Fase 3\\TechChallenge.Shared\\TechChallenge.Shared\\Events\\ContatoCreatedEvent.cs",
+              "RelativeDocumentMoniker": "..\\..\\TechChallenge.Shared\\TechChallenge.Shared\\Events\\ContatoCreatedEvent.cs",
+              "ToolTip": "E:\\TechChallenges\\Fase 3\\TechChallenge.Shared\\TechChallenge.Shared\\Events\\ContatoCreatedEvent.cs",
+              "RelativeToolTip": "..\\..\\TechChallenge.Shared\\TechChallenge.Shared\\Events\\ContatoCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:51:00.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\CadastroService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CadastroService\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\CadastroService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CadastroService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-25T14:03:50.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CadastroService.csproj",
+              "DocumentMoniker": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\CadastroService\\CadastroService.csproj",
+              "RelativeDocumentMoniker": "CadastroService\\CadastroService.csproj",
+              "ToolTip": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\CadastroService\\CadastroService.csproj",
+              "RelativeToolTip": "CadastroService\\CadastroService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-25T12:27:18.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContatosController.cs",
+              "DocumentMoniker": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\CadastroService\\Controllers\\ContatosController.cs",
+              "RelativeDocumentMoniker": "CadastroService\\Controllers\\ContatosController.cs",
+              "ToolTip": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\CadastroService\\Controllers\\ContatosController.cs",
+              "RelativeToolTip": "CadastroService\\Controllers\\ContatosController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:55:28.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\CadastroService\\Program.cs",
+              "RelativeDocumentMoniker": "CadastroService\\Program.cs",
+              "ToolTip": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\CadastroService\\Program.cs",
+              "RelativeToolTip": "CadastroService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:55:24.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Contato.cs",
+              "DocumentMoniker": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\Core\\Contato.cs",
+              "RelativeDocumentMoniker": "Core\\Contato.cs",
+              "ToolTip": "E:\\TechChallenges\\Fase 3\\CadastroService\\TC-fase3-cadastro-service\\Core\\Contato.cs",
+              "RelativeToolTip": "Core\\Contato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:55:20.981Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

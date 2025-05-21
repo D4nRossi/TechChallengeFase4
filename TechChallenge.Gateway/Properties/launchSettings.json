@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "TechChallenge.Gateway": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://192.168.0.3:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

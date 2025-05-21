@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "CadastroService.Controllers.ContatosController",
+    "Method": "Post",
+    "RelativePath": "api/Contatos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contato",
+        "Type": "CadastroService.Models.Contato",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

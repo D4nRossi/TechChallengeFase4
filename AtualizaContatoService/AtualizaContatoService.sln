@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35906.104 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtualizaContatoService", "AtualizaContatoService\AtualizaContatoService.csproj", "{E00209BD-ABAF-4EBC-8758-40D47EBD9A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechChallenge.Shared", "..\TechChallenge.Shared\TechChallenge.Shared\TechChallenge.Shared.csproj", "{4C297C91-C107-4ED4-6ED2-3D04D09C7A3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtualizaContatoService.Tests", "AtualizaContatoService.Tests\AtualizaContatoService.Tests.csproj", "{0B1DE5DE-579F-4F2B-BA37-00FC83A7B456}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E00209BD-ABAF-4EBC-8758-40D47EBD9A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00209BD-ABAF-4EBC-8758-40D47EBD9A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00209BD-ABAF-4EBC-8758-40D47EBD9A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00209BD-ABAF-4EBC-8758-40D47EBD9A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C297C91-C107-4ED4-6ED2-3D04D09C7A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C297C91-C107-4ED4-6ED2-3D04D09C7A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C297C91-C107-4ED4-6ED2-3D04D09C7A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C297C91-C107-4ED4-6ED2-3D04D09C7A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1DE5DE-579F-4F2B-BA37-00FC83A7B456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1DE5DE-579F-4F2B-BA37-00FC83A7B456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1DE5DE-579F-4F2B-BA37-00FC83A7B456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1DE5DE-579F-4F2B-BA37-00FC83A7B456}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC4A5356-E0E3-4EA2-A559-43EB0DC2CD0C}
+	EndGlobalSection
+EndGlobal
